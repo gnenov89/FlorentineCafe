@@ -20,7 +20,7 @@ a {
   color: white;
   text-decoration: none;}
 a:hover {
-  color: aqua;
+  color: #BDB76B;
 }
 .header {
   
@@ -44,6 +44,7 @@ a:hover {
 div.header a {
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
+  
 }
 .wrapper {
   width: 960px;
