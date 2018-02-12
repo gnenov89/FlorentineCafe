@@ -1,33 +1,29 @@
-/*
-  960 Grid System ~ Core CSS.
-  Learn more ~ http://960.gs/
-
-  Licensed under GPL and MIT.
-*/
-
-/*
-  Forces backgrounds to span full width,
-  even if there is horizontal scrolling.
-  Increase this if your layout is wider.
-
-  Note: IE6 works fine without this fix.
-*/
-
 
 body {
-  color: #ffffff;
-  background: #413f3b url("images/bg.jpg");
+  min-width: 960px;
+  background: antiquewhite url("./images/grid.png");
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 90%;
   margin: 0px;
-  text-align: center;}
+  text-align: center;
+  font-weight:bold;
+  
+}
+
+
+div.header img{
+float: left;
+
+}
+  
 a {
-  color: #b5c1ad;
+  color: white;
   text-decoration: none;}
 a:hover {
-  color: #ffffff;}
+  color: aqua;
+}
 .header {
-  background-image: url("images/bg-header.jpg");
+  
   padding: 0px 0px 0px 0px;
   height: 100px;
   position: fixed;
@@ -38,7 +34,17 @@ a:hover {
   float: right;
   font-family: QuicksandBook, Helvetica, Arial, sans-serif;
   padding: 45px 0px 0px 0px;
-  text-align: right;}
+  text-align: right;
+  
+  
+}
+#last{
+  font-family: 'Roboto Slab', serif;
+}
+div.header a {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
 .wrapper {
   width: 960px;
   margin: 0px auto;
@@ -398,7 +404,7 @@ body {
   /* `Clear Floated Elements
   ----------------------------------------------------------------------------------------------------*/
   
-  /* http://sonspring.com/journal/clearing-floats */
+
   
   .clear {
     clear: both;
@@ -409,7 +415,7 @@ body {
     height: 0;
   }
   
-  /* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+  
   
   .clearfix:before,
   .clearfix:after {
