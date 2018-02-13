@@ -49,7 +49,7 @@ div.header a {
 .wrapper {
   width: 960px;
   margin: 0px auto;
-  background-image: url("images/bg-triangle.png");
+  /* background-image: url("images/antique4.jpeg"); */
   background-repeat: no-repeat;
   background-position: 0px 0px;
   text-align: left;
@@ -76,9 +76,10 @@ h1 {
   clear: left;
   font-size: 90%;
   line-height: 1.4em;
+
 }
 .main-story {
-  background-image: url("images/triangles.png");
+  background-image: url("images/flo.jpeg");
   background-repeat: no-repeat;
   background-position: 122px 142px;
   height: 570px;
@@ -120,7 +121,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 960px;
-  background-image: url("./images/riverview.jpeg")
+ 
 }
 
 /* Containter 12 grid_3 Images */
@@ -149,6 +150,7 @@ body {
   float: left;
   margin-left: 10px;
   margin-right: 10px;
+  
 }
 
 .push_1,
