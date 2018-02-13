@@ -1,13 +1,16 @@
 /* General  */
 body {
   min-width: 960px;
-  background: antiquewhite 
+  background: antiquewhite ;
   /* url("./images/grid.png"); */
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 90%;
   margin: 0px;
   text-align: center;
   font-weight: bold;
+}
+.mySlides {
+ display:block;
 }
 
 div.header img {
