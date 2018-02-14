@@ -13,14 +13,19 @@ nav .brand-logo {
 a#logo-container.brand-logo{
   font-family: 'Great Vibes', cursive;
   font-size: 50px;
+  
+  
 }
 
-p {
+p.light {
   line-height: 2rem;
+  animation: chippy1 3s forwards;
+  
 }
 
 .button-collapse {
   color: #26a69a;
+  
 }
 
 .parallax-container {
@@ -58,4 +63,13 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+@keyframes chippy1 {
+  from {
+    transform: translate(0px, 1000px);
+  }
+  to {
+    transform: translate(0px, 0px)
+  }
 }
