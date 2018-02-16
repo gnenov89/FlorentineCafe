@@ -44,6 +44,17 @@ img.middle:hover {
   transform: scaleX(-1);
 }
 
+#vitoria{
+
+  max-width: 100%;
+  height: auto;
+}
+
+#scopa{
+  max-width: 100%;
+  height: auto;
+}
+
 p.light {
   line-height: 2rem;
   animation: chippy1 3s forwards;
