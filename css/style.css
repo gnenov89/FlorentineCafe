@@ -1,10 +1,4 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
+/* This is the mane page */
 
 nav ul a,
 nav .brand-logo {
@@ -15,12 +9,19 @@ a#logo-container.brand-logo{
   font-size: 50px; 
 }
 
-h1.header.center.teal-text.text-lighten-2{
+h1.header.center{
   font-family: 'Great Vibes', cursive;
-  font-size: 70px;
-  color: azure;
+  font-size: 130px;
 
 }
+h5.header.col.s12.light{
+  font-size: 40px;
+}
+h6 {
+  font-size: 30px;
+  font-family: 
+}
+
 
 p.light {
   line-height: 2rem;
@@ -68,7 +69,9 @@ p.light {
 
 footer.page-footer {
   margin: 0;
+
 }
+/* Animations  */
 
 @keyframes chippy1 {
   from {
