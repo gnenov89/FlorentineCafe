@@ -3,7 +3,7 @@
 nav ul a,
 nav .brand-logo {
   color: #444;
-  font-size: 25px
+  font-size: 30p;
   
 }
 a#logo-container.brand-logo{
@@ -34,12 +34,12 @@ h6 {
 img{
   max-width: 100%;
   height: auto;
-  border-radius: 8px;r
+  border-radius: 8px;
 
 }
 
 
-img:hover {
+img.middle:hover {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
