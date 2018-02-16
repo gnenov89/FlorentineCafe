@@ -3,31 +3,51 @@
 nav ul a,
 nav .brand-logo {
   color: #444;
+  font-size: 25px
+  
 }
 a#logo-container.brand-logo{
   font-family: 'Great Vibes', cursive;
   font-size: 50px; 
+   
+  
 }
 
 h1.header.center{
   font-family: 'Great Vibes', cursive;
   font-size: 130px;
+  text-shadow: 2px 2px #D2691E;
+  
 
 }
 h5.header.col.s12.light{
   font-size: 40px;
   font-family: 'Roboto Condensed', sans-serif;
+
 }
 h6 {
   font-size: 30px;
-  font-family: 
   font-family: 'Roboto Condensed', sans-serif;
+  
 }
 
+img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;r
+
+}
+
+
+img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
 
 p.light {
   line-height: 2rem;
   animation: chippy1 3s forwards;
+  
   
 }
 
@@ -41,11 +61,14 @@ p.light {
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
+  border:solid black 1px;
+  
 }
   .parallax-container .section {
     width: 100%;
+    
   }
-
+/* Media quiries */
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
