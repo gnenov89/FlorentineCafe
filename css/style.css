@@ -16,10 +16,12 @@ h1.header.center{
 }
 h5.header.col.s12.light{
   font-size: 40px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 h6 {
   font-size: 30px;
   font-family: 
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 
@@ -70,6 +72,9 @@ p.light {
 footer.page-footer {
   margin: 0;
 
+}
+footer.page-footer.teal{
+  color: antiquewhite;
 }
 /* Animations  */
 
