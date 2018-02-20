@@ -1,13 +1,16 @@
 /* This is the mane page */
  #home {
-  background: brown;
+  background: url("../assets/backround.jpeg")
 }
-
+nav{
+  background: url("../assets/backround.jpeg")
+}
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: white;
   font-size: 30p;
+  background: url("../assets/backround.jpeg")
   
 }
 a#logo-container.brand-logo{
@@ -28,6 +31,9 @@ h5.header.col.s12.light{
   font-size: 40px;
   font-family: 'Roboto Condensed', sans-serif;
 
+}
+h4{
+  color: white;
 }
 h6 {
   font-size: 30px;
@@ -66,6 +72,7 @@ img.middle:hover {
 p.light {
   line-height: 2rem;
   animation: chippy1 3s forwards;
+  color: white;
   
   
 }
@@ -113,6 +120,8 @@ p.light {
 
 footer.page-footer {
   margin: 0;
+  background: url("../assets/backround.jpeg")
+
 
 }
 footer.page-footer.teal{
