@@ -1,4 +1,8 @@
 /* This is the mane page */
+ #home {
+  background: brown;
+}
+
 
 nav ul a,
 nav .brand-logo {
@@ -29,6 +33,10 @@ h6 {
   font-size: 30px;
   font-family: 'Roboto Condensed', sans-serif;
   
+}
+
+h1{
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 img{
