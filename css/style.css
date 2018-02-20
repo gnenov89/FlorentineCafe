@@ -13,6 +13,23 @@ nav .brand-logo {
   background: url("../assets/backround.jpeg")
   
 }
+
+li{
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+li:hover,
+li:focus,
+li:active {
+    transform: scale(1.3);
+}
 a#logo-container.brand-logo{
   font-family: 'Great Vibes', cursive;
   font-size: 50px; 
@@ -56,9 +73,9 @@ img{
 }
 
 
-img.middle:hover {
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
+img.hvr-grow:hover {
+  transform: scale(1.1);
+  
 }
 
 #vitoria{
