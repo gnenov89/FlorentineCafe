@@ -140,3 +140,14 @@ footer.page-footer.teal{
     transform: translate(0px, 0px)
   }
 }
+
+
+
+
+/* This is menu page */
+
+#menu {
+  background: url("../assets/pasta.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
