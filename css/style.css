@@ -90,7 +90,8 @@ p.light {
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
-  border:solid black 1px;
+  border-top:solid white 1px;
+  border-bottom: solid white 1px;
   
 }
   .parallax-container .section {
