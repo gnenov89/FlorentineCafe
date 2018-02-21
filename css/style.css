@@ -161,10 +161,13 @@ footer.page-footer.teal {
 
 /* This is menu page */
 
+
+
 #menu {
   background: url("../assets/pasta.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  
 }
 
 #menu #logo-container {
@@ -175,4 +178,8 @@ footer.page-footer.teal {
 #menu h1,h3, h6{
   font-family: "Roboto Condensed", sans-serif;
   text-indent: 50px;
+}
+
+h1{
+  font-size: 80px;
 }
