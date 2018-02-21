@@ -67,6 +67,7 @@ h6 {
   font-size: 30px;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: bold;
+
 }
 
 h1 {
@@ -109,8 +110,8 @@ p.light {
   line-height: 0;
   height: auto;
   color: rgba(255, 255, 255, 0.9);
-  border-top: solid white 1px;
-  border-bottom: solid white 1px;
+  /* border-top: solid white 1px;
+  border-bottom: solid white 1px; */
 }
 .parallax-container .section {
   width: 100%;
@@ -159,6 +160,14 @@ footer.page-footer.teal {
   }
 }
 
+@keyframes example {
+  from {background:url("../assets/fresh.jpeg")}
+  
+ 
+}
+
+
+
 /* This is menu page */
 
 
@@ -167,6 +176,9 @@ footer.page-footer.teal {
   background: url("../assets/pasta.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  animation-name: example;
+  animation-duration: 3s;
+  
   
 }
 
@@ -175,10 +187,18 @@ footer.page-footer.teal {
 
 }
 
+
+
 #menu h1,h3, h6{
   font-family: "Roboto Condensed", sans-serif;
   text-indent: 50px;
+  text-shadow: 3px 2px #d2691e;
+  font-weight: bold;
+  text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
+  text-decoration: underline;
 }
+
+
 
 h1{
   font-size: 80px;
