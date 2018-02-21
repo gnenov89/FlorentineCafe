@@ -163,3 +163,8 @@ footer.page-footer.teal {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+#menu #logo-container {
+  font-family: "Great Vibes", cursive;
+
+}
