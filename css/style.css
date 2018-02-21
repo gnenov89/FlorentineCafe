@@ -177,7 +177,9 @@ footer.page-footer.teal {
   background-repeat: no-repeat;
   background-attachment: fixed;
   animation-name: example;
-  animation-duration: 3s;
+  animation-duration: 5s;
+  /* animation-iteration-count: infinite; */
+  
   
   
 }
@@ -198,8 +200,10 @@ footer.page-footer.teal {
   text-decoration: underline;
 }
 
+manu h1,h3{
 
+text-decoration: none;
 
-h1{
-  font-size: 80px;
 }
+
+
