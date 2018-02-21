@@ -83,6 +83,7 @@ img.hvr-grow:hover {
   transform: scale(1.1);
 }
 
+
 #vitoria {
   max-width: 100%;
   height: auto;
@@ -114,6 +115,8 @@ p.light {
 .parallax-container .section {
   width: 100%;
 }
+
+
 /* Media quiries */
 @media only screen and (max-width: 992px) {
   .parallax-container .section {
@@ -167,4 +170,9 @@ footer.page-footer.teal {
 #menu #logo-container {
   font-family: "Great Vibes", cursive;
 
+}
+
+#menu h1,h3, h6{
+  font-family: "Roboto Condensed", sans-serif;
+  text-indent: 50px;
 }
