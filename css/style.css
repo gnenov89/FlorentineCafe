@@ -167,9 +167,12 @@ footer.page-footer.teal {
 }
 
 @keyframes example {
-  from {background:url("../assets/fresh.jpeg");
+  from {background:url("../assets/pasta1.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;}
+    background-attachment: fixed;
+    
+
+  }
   
  
 }
@@ -181,12 +184,12 @@ footer.page-footer.teal {
 
 
 #menu {
-  background: url("../assets/pasta.jpg");
+  background: url("../assets/pasta2.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   animation-name: example;
   animation-duration: 5s;
-  /* animation-iteration-count: infinite; */
+  animation-iteration-count: infinite;
   
   
   

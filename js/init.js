@@ -6,6 +6,7 @@
     $('h1').fadeIn(4000);
     $('h5').fadeIn(4000);
     $('h6').fadeIn(4000);
+    $('p').fadeIn(4000);
 
 
   }); // end of document ready
