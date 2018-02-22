@@ -62,8 +62,6 @@ h5.header.col.s12.light {
   font-size: 40px;
   font-family: "Roboto Condensed", sans-serif;
   display:none;
-  font-weight: bold;
-  
 }
 h4 {
   color: white;
@@ -167,12 +165,7 @@ footer.page-footer.teal {
 }
 
 @keyframes example {
-  from {background:url("../assets/pasta1.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    
-
-  }
+  from {background:url("../assets/pasta1.jpg")}
   
  
 }
@@ -184,12 +177,12 @@ footer.page-footer.teal {
 
 
 #menu {
-  background: url("../assets/pasta2.jpg");
+  background: url("../assets/pasta4.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   animation-name: example;
   animation-duration: 5s;
-  animation-iteration-count: infinite;
+  /* animation-iteration-count: infinite; */
   
   
   
