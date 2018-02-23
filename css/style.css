@@ -51,8 +51,9 @@ li:active {
 h1.header.center {
   font-family: "Great Vibes", cursive;
   font-size: 130px;
-  text-shadow: 2px 2px #d2691e;
+  text-shadow: 2px 2px black;
   display:none;
+
 }
 h5.center {
   color: white;
@@ -193,12 +194,18 @@ footer.page-footer.teal {
 
 }
 
+div.row.big{
+  background: gray;
+  opacity: 0.7;
+  
+}
+
 
 
 #menu h1,h3, h6{
   font-family: "Roboto Condensed", sans-serif;
   text-indent: 50px;
-  text-shadow: 3px 2px #d2691e;
+  text-shadow: 3px 2px ;
   font-weight: bold;
   text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
   text-decoration: underline;
@@ -210,5 +217,66 @@ footer.page-footer.teal {
 text-decoration: none;
 
 }
+h6.flow-text{
+  font-size: 50px;
+}
+
+p.flow-text{
+  text-indent: 110px;
+  text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
+  font:black;
+  font-weight: bold;
+  
+}
+
+
+
+/* This is the About page */
+
+#about #logo-container {
+  font-family: "Great Vibes", cursive;
+
+}
+
+div.row.big{
+  background: gray;
+  opacity: 0.7;
+  
+}
+
+
+
+#about h1,h3, h6{
+  font-family: "Roboto Condensed", sans-serif;
+  text-indent: 50px;
+  text-shadow: 3px 2px ;
+  font-weight: bold;
+  text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
+  text-decoration: underline;
+  display: none;
+}
+
+#about h1,h3{
+
+text-decoration: none;
+
+}
+ #about h6.flow-text{
+  font-size: 50px;
+}
+
+#about p.flow-text{
+  text-indent: 110px;
+  text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
+  font:black;
+  font-weight: bold;
+  
+}
+
+#mapO {
+  height:400px;
+  width:100%;
+}
+
 
 

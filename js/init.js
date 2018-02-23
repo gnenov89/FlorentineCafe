@@ -3,10 +3,9 @@
 
     $('.button-collapse').sideNav();
     $('.parallax').parallax();
-    $('h1').fadeIn(4000);
-    $('h5').fadeIn(4000);
-    $('h6').fadeIn(4000);
-    $('p').fadeIn(4000);
+    var list = $('h1, h3, h5, h6, p').fadeIn(4000);
+
+    
 
 
   }); // end of document ready
