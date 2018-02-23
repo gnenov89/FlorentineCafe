@@ -1,10 +1,11 @@
 /* This is the mane page */
+
 #home {
   background: url("../assets/backround.jpeg");
 }
+
 nav {
   background: url("../assets/backround.jpeg");
- 
 }
 
 nav ul a,
@@ -14,6 +15,7 @@ nav {
   background: url("../assets/backround.jpeg");
   border: none;
 }
+
 .hvr-grow {
   font-family: "Great Vibes", cursive;
   font-size: 50px;
@@ -54,27 +56,29 @@ h1.header.center {
   font-family: "Great Vibes", cursive;
   font-size: 130px;
   text-shadow: 2px 2px black;
-  display:none;
-
+  display: none;
 }
+
 h5.center {
   color: white;
-  display:none;
+  display: none;
 }
+
 h5.header.col.s12.light {
   font-size: 40px;
   font-family: "Roboto Condensed", sans-serif;
-  display:none;
+  display: none;
 }
+
 h4 {
   color: white;
 }
+
 h6 {
   font-size: 30px;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: bold;
-  display:none;
-
+  display: none;
 }
 
 h1 {
@@ -91,34 +95,29 @@ img.hvr-grow:hover {
   transform: scale(1.1);
 }
 
-
 #vitoria {
   max-width: 100%;
   height: 185px;
   width: 240px;
- 
 }
 
 #scopa {
   max-width: 100%;
   height: auto;
   width: 240px;
-  
   margin-left: 80px;
 }
 
-#gennarro{
+#gennarro {
   max-width: 100%;
   height: 166px;
   width: 240px;
-  
 }
 
-#stanza{
+#stanza {
   max-width: 100%;
   height: 185px;
   width: 240px;
-  
 }
 
 p.light {
@@ -139,12 +138,13 @@ p.light {
   /* border-top: solid white 1px;
   border-bottom: solid white 1px; */
 }
+
 .parallax-container .section {
   width: 100%;
 }
 
-
 /* Media quiries */
+
 @media only screen and (max-width: 992px) {
   .parallax-container .section {
     position: absolute;
@@ -164,6 +164,7 @@ p.light {
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
   font-size: inherit;
 }
@@ -172,9 +173,11 @@ footer.page-footer {
   margin: 0;
   background: url("../assets/backround.jpeg");
 }
+
 footer.page-footer.teal {
   color: antiquewhite;
 }
+
 /* Animations  */
 
 @keyframes chippy1 {
@@ -187,16 +190,12 @@ footer.page-footer.teal {
 }
 
 @keyframes example {
-  from {background:url("../assets/pasta1.jpg")}
-  
- 
+  from {
+    background: url("../assets/pasta1.jpg")
+  }
 }
 
-
-
 /* This is menu page */
-
-
 
 #menu {
   background: url("../assets/pasta4.jpg");
@@ -205,29 +204,24 @@ footer.page-footer.teal {
   animation-name: example;
   animation-duration: 5s;
   /* animation-iteration-count: infinite; */
-  
-  
-  
 }
 
 #menu #logo-container {
   font-family: "Great Vibes", cursive;
-
 }
 
-div.row.big{
+div.row.big {
   background: gray;
   opacity: 0.7;
   text-align: center;
-  
 }
 
-
-
-#menu h1,h3, h6{
+#menu h1,
+h3,
+h6 {
   font-family: "Roboto Condensed", sans-serif;
   text-indent: 50px;
-  text-shadow: 3px 2px ;
+  text-shadow: 3px 2px;
   font-weight: bold;
   text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
   text-decoration: underline;
@@ -235,48 +229,41 @@ div.row.big{
   text-align: center;
 }
 
-#menu h1,h3{
-
-text-decoration: none;
-
+#menu h1,
+h3 {
+  text-decoration: none;
 }
-h6.flow-text{
+
+h6.flow-text {
   font-size: 50px;
 }
 
- #menu p.flow-text{
+#menu p.flow-text {
   text-indent: 110px;
   text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
-  font:black;
+  font: black;
   font-weight: bold;
-  
 }
-
-
 
 /* This is the About page */
 
-#about{
+#about {
   background: url("../assets/back.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed
 }
 
-
 #about #logo-container {
   font-family: "Great Vibes", cursive;
-
 }
 
-div.row.big{
+div.row.big {
   background: gray;
   opacity: 0.7;
-  
 }
 
-
-
-#about h3, h6{
+#about h3,
+h6 {
   font-family: "Roboto Condensed", sans-serif;
   color: white;
   text-indent: 100px;
@@ -285,62 +272,57 @@ div.row.big{
 
 #about h1#head {
   color: white;
-  font-size: 100px; 
-  text-shadow: 2px 2px black; 
-  display:none;
+  font-size: 100px;
+  text-shadow: 2px 2px black;
+  display: none;
   /* font-family: "Roboto Condensed", sans-serif; */
   text-indent: 50px;
   font-family: 'Anton', sans-serif;
-font-family: 'Fjalla One', sans-serif; 
+  font-family: 'Fjalla One', sans-serif;
   font-weight: bold;
-  
-
 }
 
-
- #about h6.flow-text{
+#about h6.flow-text {
   font-size: 50px;
 }
 
-#about p.flow-text{
-
+#about p.flow-text {
   /* text-indent: 110px; */
   /* text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000; */
-  
   text-indent: 100px;
   font-weight: 100px;
   animation: chippy1 3s forwards;
   color: white;
-
 }
-
-
-
-
-
-
-
-
 
 #map {
-  height:400px;
-  width:auto;
+  height: 400px;
+  width: auto;
   /* margin-left: 200px; */
   border: 1px solid;
-    padding: 10px;
-    box-shadow: 5px 10px 8px 10px white;
+  padding: 10px;
+  box-shadow: 5px 10px 8px 10px white;
 }
-
-
-
 
 img.about {
   max-width: 100%;
   height: auto;
   width: 100px;
-  display:none;
-  
+  display: none;
+}
+
+/* Amience page starts here */
+
+#ambience {
 
 }
 
+div.carousel{
+  position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:1000;
 
+}
