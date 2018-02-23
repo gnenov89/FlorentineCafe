@@ -4,6 +4,7 @@
 }
 nav {
   background: url("../assets/backround.jpeg");
+ 
 }
 
 nav ul a,
@@ -11,6 +12,7 @@ nav {
   color: white;
   font-size: 30p;
   background: url("../assets/backround.jpeg");
+  border: none;
 }
 .hvr-grow {
   font-family: "Great Vibes", cursive;
@@ -233,6 +235,11 @@ h6.flow-text{
 
 /* This is the About page */
 
+#about{
+  background: url("../assets/back.jpg")
+}
+
+
 #about #logo-container {
   font-family: "Great Vibes", cursive;
 
@@ -246,21 +253,21 @@ div.row.big{
 
 
 
-#about h1,h3, h6{
+#about h3, h6{
   font-family: "Roboto Condensed", sans-serif;
-  text-indent: 50px;
-  text-shadow: 3px 2px ;
-  font-weight: bold;
-  text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
-  text-decoration: underline;
+  color: white;
+  text-indent: 100px;
   display: none;
 }
 
-#about h1,h3{
-
-text-decoration: none;
-
+#about h1#head {
+  
+  font-size: 130px;
+  text-shadow: 2px 2px black;
+  display:none;
 }
+
+
  #about h6.flow-text{
   font-size: 50px;
 }
@@ -268,7 +275,9 @@ text-decoration: none;
 #about p.flow-text{
   /* text-indent: 110px; */
   /* text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000; */
-  
+  color: white;
+  text-indent: 100px;
+  font-weight: 100px;
   animation: chippy1 3s forwards;
 
 }
@@ -296,6 +305,9 @@ img.about {
   max-width: 100%;
   height: auto;
   width: 100px;
+  display:none;
   
 
 }
+
+
