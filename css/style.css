@@ -313,9 +313,7 @@ img.about {
 
 /* Amience page starts here */
 
-#ambience {
 
-}
 
 div.carousel{
   position:absolute;
@@ -324,5 +322,6 @@ div.carousel{
     width:100%;
     height:100%;
     z-index:1000;
+    zoom:2.5;
 
 }
