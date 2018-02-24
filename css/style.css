@@ -218,7 +218,7 @@ div.row.big {
   border: 1px solid;
   padding: 10px;
   box-shadow: 5px 10px 18px #888888;
-  text-rendering: optimizeLegibility;
+  
   
 }
 
@@ -267,6 +267,10 @@ h6.flow-text {
 
 #about #logo-container {
   font-family: "Great Vibes", cursive;
+}
+
+div.section{
+  border-top: soild 2px brown;
 }
 
 div.row.big {
@@ -337,4 +341,12 @@ div.carousel{
     zoom:2.0;
     margin-top:30px;
 
+}
+
+#ambience {
+  background: url("../assets/back.jpg");
+}
+
+#ambience #logo-container {
+  font-family: "Great Vibes", cursive;
 }
