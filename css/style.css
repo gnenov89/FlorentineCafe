@@ -191,14 +191,14 @@ footer.page-footer.teal {
 
 @keyframes example {
   from {
-    background: url("../assets/pasta1.jpg")
+    background: url("../assets/fresh.jpeg")
   }
 }
 
 /* This is menu page */
 
 #menu {
-  background: url("../assets/pasta4.jpg");
+  background: url("../assets/pizza.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   animation-name: example;
@@ -218,6 +218,8 @@ div.row.big {
   border: 1px solid;
   padding: 10px;
   box-shadow: 5px 10px 18px #888888;
+  text-rendering: optimizeLegibility;
+  
 }
 
 #menu h1,
@@ -225,6 +227,7 @@ h3,
 h6 {
   font-family: "Roboto Condensed", sans-serif;
   /* text-indent: 50px; */
+ 
   text-shadow: 3px 2px;
   font-weight: bold;
   text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
@@ -240,6 +243,9 @@ h3 {
 
 h6.flow-text {
   font-size: 50px;
+}
+#strong{
+  text-decoration: none;
 }
 
 #menu p.flow-text {
