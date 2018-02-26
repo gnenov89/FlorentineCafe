@@ -249,7 +249,7 @@ h6.flow-text {
 }
 
 #menu p.flow-text {
-  /* text-indent: 10px; */
+  
   text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
   font: black;
   font-weight: bold;
@@ -265,13 +265,11 @@ h6.flow-text {
   background-attachment: fixed
 }
 
-#about #logo-container {
-  font-family: "Great Vibes", cursive;
-}
 
-div.section{
+
+/* div.section{
   border-top: soild 2px brown;
-}
+} */
 
 div.row.big {
   background: gray;
@@ -286,7 +284,7 @@ h6 {
   display: none;
 }
 
-#about h1#head {
+ #about h1#head {
   color: white;
   font-size: 100px;
   text-shadow: 2px 2px black;
@@ -296,28 +294,29 @@ h6 {
   font-family: 'Anton', sans-serif;
   font-family: 'Fjalla One', sans-serif;
   font-weight: bold;
-}
+} 
 
 #about h6.flow-text {
   font-size: 50px;
 }
 
-#about p.flow-text {
+ #about p.flow-text {
   /* text-indent: 110px; */
   /* text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000; */
   /* text-indent: 100px; */
   font-weight: 100px;
   animation: chippy1 3s forwards;
   color: white;
-}
+} 
 
 #map {
   height: 400px;
   width: auto;
   /* margin-left: 200px; */
   border: 1px solid;
-  padding: 10px;
-  box-shadow: 5px 10px 8px 10px white;
+  /* padding: 10px; */
+  /* box-shadow: 5px 5px 5px 5px white; */
+  border-radius: 20px;
 }
 
 img.about {
@@ -350,3 +349,4 @@ div.carousel{
 #ambience #logo-container {
   font-family: "Great Vibes", cursive;
 }
+
