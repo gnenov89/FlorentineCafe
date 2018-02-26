@@ -243,7 +243,7 @@ h6 {
   text-decoration: underline;
   display: none;
   text-align: center;
-  color: white;
+  color:white;
 }
 
 #menu h1,
@@ -345,7 +345,7 @@ img.about {
 /* Ambience page starts here */
 
  div.carousel{
-   position:fixed;
+   position:absolute;
     top:0;
     left:0;
     width:90%;
@@ -364,5 +364,11 @@ img.about {
   font-family: "Great Vibes", cursive;
 }
 
-
+span.flow-text{
+ color: white;
+ text-align: center
+}
+#image{
+  border: solid 2px white;
+}
 
