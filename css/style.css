@@ -227,6 +227,8 @@ div.row.big {
   border: 1px solid;
   padding: 10px;
   box-shadow: 5px 10px 18px #888888;
+  margin-left:50px;
+  margin-right: 50px;
   
   
 }
@@ -321,7 +323,7 @@ h6 {
   /* text-indent: 100px; */
   font-weight: 100px;
   animation: chippy1 3s forwards;
-  color: white;
+  color: #ffffff;
 } 
 
 #map {
