@@ -1825,6 +1825,7 @@ if (Vel) {
         origin.on('click.' + origin.attr('id'), function (e) {
           if (!isFocused) {
             if (origin[0] == e.currentTarget && !origin.hasClass('active') && $(e.target).closest('.dropdown-content').length === 0) {
+         
               e.preventDefault(); // Prevents button click from moving window
               if (curr_options.stopPropagation) {
                 e.stopPropagation();
@@ -9619,25 +9620,47 @@ if (Vel) {
           }
         }
 
+        // function cycleTo(n) {
+        //   var diff = (center % count) - n;
+
+        //   // Account for wraparound.
+        //   if (!noWrap) {
+        //     if (diff < 0) {
+        //       if (Math.abs(diff + count) < Math.abs(diff)) {
+        //         diff += count;
+        //       }
+        //     } else if (diff > 0) {
+        //       if (Math.abs(diff - count) < diff) {
+        //         diff -= count;
+        //       }
+        //     }
+        //   }
+
+        //   // Call prev or next accordingly.
+        //   if (diff < 0) {
+        //     view.trigger('carouselNext', [Math.abs(diff)]);
+        //   } else if (diff > 0) {
+        //     view.trigger('carouselPrev', [diff]);
+        //   }
+        // }
+
         function cycleTo(n) {
-          var diff = center % count - n;
+          var diff = (center % count) - n;
 
           // Account for wraparound.
           if (!noWrap) {
             if (diff < 0) {
-              if (Math.abs(diff + count) < Math.abs(diff)) {
-                diff += count;
-              }
+              if (Math.abs(diff + count) < Math.abs(diff)) { diff += count; }
+
             } else if (diff > 0) {
-              if (Math.abs(diff - count) < diff) {
-                diff -= count;
-              }
+              if (Math.abs(diff - count) < diff) { diff -= count; }
             }
           }
 
           // Call prev or next accordingly.
           if (diff < 0) {
             view.trigger('carouselNext', [Math.abs(diff)]);
+
           } else if (diff > 0) {
             view.trigger('carouselPrev', [diff]);
           }
@@ -9646,7 +9669,7 @@ if (Vel) {
         function tap(e) {
           // Fixes firefox draggable image bug
           if (e.type === 'mousedown' && $(e.target).is('img')) {
-            e.preventDefault();
+            // e.preventDefault();
           }
           pressed = true;
           dragged = false;
