@@ -14,7 +14,7 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 </head>
 
-<body id="home">
+<body id="ambience">
   <nav role="navigation">
     <div class="nav-wrapper container">
 
@@ -62,174 +62,66 @@
   
 
 
-  <div class="container">
-    <div class="section">
+  <div class="container-ambience">
 
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text">
-                <a href="https://www.thrillist.com/eat/boston/best-italian-restaurants-boston-massachusetts">
-              <img class="hvr-grow" src="./assets/italia.jpeg"><a href="https://www.thrillist.com/eat/boston/best-italian-restaurants-boston-massachusetts">
-            </h2>
-            <h5 class="center">Italian Food Matters</h5>
 
-            <p class="light">Brandt family beef, New England seafood, seasonal produce, decadent desserts, a world-class wine list, outstanding
-              service and warm hospitality. A truly Italian experience. This is Florentine Cafe.
+      <main>
+          <div class="row">
+              <div id="card" class="col s12 m8 offset-m2 l6 offset-l3">
+                <div class="card-panel grey lighten-1 center-align hoverable">
+                  <div class="card-content white-text">
+                    <span class="card-title">Send us an Email</span>
+                    <div class="row">
+                      
+                        <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbwagtv98s7gxEduj2hcEAeSV0dCI6raMzhhjtf_yKeKxcMxhvgf/exec">
+                          <div class="row">
+                            <div class="input-field col s12">
+                              <i class="material-icons prefix">account_circle</i>
+                              <input id="name" name="name" type="text" class="validate">
+                              <label class="active" for="name">Name</label>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="input-field col s12">
+                              <i class="material-icons prefix">mail</i>
+                              <input id="email" name="email" type="email" class="validate">
+                              <label class="active" for="email">Email</label>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="input-field col s12">
+                              <i class="material-icons prefix">comment</i>
+                              <textarea id="message" name="message" class="materialize-textarea"></textarea>
+                              <label class="active" for="message">Leave a Message</label>
+                            </div>
+                          </div>
+                            <button class="btn btn-floating btn-large blue pulse center-align " type="submit">Submit
+                            </button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="row"  style="display:none" id="thankyou_message">
+              <div class="col s12 m3 l2"></div>
+              <div class="col s12 m6 l8">
+                <h2 class="white-text"><em>Thanks for contacting us. <br> We will get back to you soon.</em></h2>
+              </div>
+              <div class="col s12 m3 l2"></div>
+            </div>
+      </main>
 
-            </p>
-          </div>
-        </div>
 
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text">
-              <img class="hvr-grow" src="./assets/northend.jpeg"><a href="http://www.northendboston.com/">
-            </h2>
-            <h5 class="center">Boston North End</h5>
 
-            <p class="light">Boston and its North End offer a veritable surfeit of historical sites and stories: from the days of the American
-              Revolution through the China trade period of the early 1800s, to the extraordinary tsunami of Irish, Portuguese,
-              Jewish and Italian immigrants who flooded Boston over the last century-and-a-half.</p>
-          </div>
-        </div>
 
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text">
-              <img class="hvr-grow" src="./assets/local.jpeg"><a href="http://bostonlocalfoodfestival.com/participate/about-the-festivallocal-resources-for-restaurants-and-chefs/">
-            </h2>
-            <h5 class="center">Local Ingredients</h5>
 
-            <p class="light">Florentine has been an active and involved player in the local agricultural infrastructure in New England since
-              we first started in 2002. We believe it is in everyone’s best interest to build a strong regional network of
-              growers, distributors and retailers.</p>
-          </div>
-        </div>
-      </div>
 
-    </div>
+    <div class="row"></div>
+    <div class="row"></div>
+     <div class="row"></div> 
+    <div class="row"></div>
   </div>
-
-  <!-- End of icon section -->
-  <div class="parallax-container valign-wrapper">
-
-
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <!-- <h5 class="header col s12 light">Support Local Businesses</h5> -->
-        </div>
-      </div>
-    </div>
-    <div class="parallax">
-      <img src="./assets/fresh.jpeg" alt="Unsplashed background img 2">
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="section">
-
-      <div class="row">
-        <div class="col s12 center">
-          <h3>
-            <i class="mdi-content-send brown-text"></i>
-          </h3>
-          <h4>Private Events</h4>
-          <p class="left-align light">Florentine's private dining room provides a sophisticated setting for intimate gatherings of sixty seated and up
-            to eighty for a reception. With award-winning Italian Mediterranean cuisine from Liuggi Cocioni and unparalleled,
-            professional service, Floretine provides the ultimate private dining experience.</p>
-        </div>
-      </div>
-
-    </div>
-
-
-  </div>
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <!-- <h5 class="header col s12 light">A little something for every occasion.</h5> -->
-        </div>
-      </div>
-    </div>
-    <div class="parallax">
-      <img src="./assets/events.jpeg" alt="Unsplashed background img 3">
-    </div>
-  </div>
-
-  <footer class="page-footer">
-
-    <div class="row center">
-      <h4 >Sister Restaurants</h4>
-    </div>
-    <div class="row">
-      
-        <!-- <div class="col s12 m6 l3"> -->
-            <!-- <img id="scopa" src="./assets/scopa.png"> -->
-            <a href="http://www.scopaboston.com/" class="hvr-grow">
-              <!-- </img> -->
-          <!-- </div> -->
-
-      <div class="col s12 m6 l3">
-        <img id="scopa" src="./assets/scopa.png">
-        <a href="http://www.scopaboston.com/" class="hvr-grow">
-          </img>
-      </div>
-      <div class="col s12 m6 l3">
-        <img id="vitoria" src="./assets/vittoria.jpeg">
-        <a href="http://www.caffevittoria.com/" class="hvr-grow">
-          </img>
-      </div>
-      <div class="col s12 m6 l3">
-        <img id="stanza" src="./assets/stanza.jpeg">
-        <a href="http://www.stanzadeisigari.com/" class="hvr-grow">
-          </img>
-      </div>
-      <div class="col s12 m6 l3">
-        <img id="genarro" src="./assets/genaro.jpeg">
-        <a href="https://www.yelp.com/biz/gennaros-5-north-square-boston" >
-          </img>
-      </div>
-
-    </div>
-
-    <!-- <div class="container s12 l6">
-     <div class="row">
-
-        <div class="col l6 s12">
-          <h5 class="black-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
-        </div>
-        <div class="col l3 s12">
-          <h5 class="black-text">Settings</h5>
-          <img src="./assets/events.jpeg" alt="Unsplashed background img 3">
-          <img src="./assets/events.jpeg" alt="Unsplashed background img 3">
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <img src="./assets/events.jpeg" alt="Unsplashed background img 3">
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-      </div> -->
-    </div>
 
 
     <div class="footer-copyright">
@@ -247,7 +139,8 @@
   <script src="js/init.js"></script>
 
   <script src="js/candy.js"></script>
-
+  <script data-cfasync="false" type="text/javascript"
+  src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
 
 </body>
 
