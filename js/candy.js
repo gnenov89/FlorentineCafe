@@ -153,15 +153,4 @@
   }
   document.addEventListener('DOMContentLoaded', loaded, false);
   
-  function setupEvents() {
-    if (typeof window.ontouchstart !== 'undefined') {
-      view.on('touchstart.carousel', tap);
-      view.on('touchmove.carousel', drag);
-      view.on('touchend.carousel', release);
-    }
-    view.on('mousedown.carousel', tap);
-    view.on('mousemove.carousel', drag);
-    view.on('mouseup.carousel', release);
-    view.on('mouseleave.carousel', release);
-    view.on('click.carousel', click);
-  }
+  
