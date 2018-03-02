@@ -6,7 +6,7 @@
     var list = $('h1, h3, h5, h6, p, img.about').fadeIn(4000);
    
     $('.carousel').carousel({full_width: true});
-   
+    $('.materialboxed').materialbox();
       
 
 
