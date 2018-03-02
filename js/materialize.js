@@ -17,7 +17,7 @@ if (typeof jQuery === 'undefined') {
     jQuery = $;
   }
 }
-; /*
+ /*
   * jQuery Easing v1.4.0 - http://gsgd.co.uk/sandbox/jquery/easing/
   * Open source under the BSD License.
   * Copyright © 2008 George McGinley Smith
@@ -160,7 +160,7 @@ if (typeof jQuery === 'undefined') {
       return x < 0.5 ? (1 - bounceOut(1 - 2 * x)) / 2 : (1 + bounceOut(2 * x - 1)) / 2;
     }
   });
-});; // Custom Easing
+});// Custom Easing
 jQuery.extend(jQuery.easing, {
   easeInOutMaterial: function (x, t, b, c, d) {
     if ((t /= d / 2) < 1) return c / 2 * t * t + b;
