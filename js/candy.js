@@ -131,7 +131,7 @@
       // xhr.withCredentials = true;
       xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
       xhr.onreadystatechange = function() {
-          console.log( xhr.status, xhr.statusText )
+          console.log( xhr.status, xhr.statusText );
           console.log(xhr.responseText);
           document.getElementById('gform').style.display = 'none'; 
           document.getElementById('card').style.display= 'none';// hide form
@@ -140,8 +140,8 @@
       };
       // url encode form data for sending as post data
       var encoded = Object.keys(data).map(function(k) {
-          return encodeURIComponent(k) + '=' + encodeURIComponent(data[k])
-      }).join('&')
+          return encodeURIComponent(k) + '=' + encodeURIComponent(data[k]);
+      }).join('&');
       xhr.send(encoded);
     }
   }
@@ -150,7 +150,18 @@
     // bind to the submit event of our form
     var form = document.getElementById('gform');
     form.addEventListener("submit", handleFormSubmit, false);
-  };
+  }
   document.addEventListener('DOMContentLoaded', loaded, false);
   
-  
+  function setupEvents() {
+    if (typeof window.ontouchstart !== 'undefined') {
+      view.on('touchstart.carousel', tap);
+      view.on('touchmove.carousel', drag);
+      view.on('touchend.carousel', release);
+    }
+    view.on('mousedown.carousel', tap);
+    view.on('mousemove.carousel', drag);
+    view.on('mouseup.carousel', release);
+    view.on('mouseleave.carousel', release);
+    view.on('click.carousel', click);
+  }
