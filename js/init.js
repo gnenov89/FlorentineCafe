@@ -7,6 +7,7 @@
    
     $('.carousel').carousel({full_width: true});
     $('.materialboxed').materialbox();
+    // Materialize.toast('I am a toast!', 4000)
       
 
 
