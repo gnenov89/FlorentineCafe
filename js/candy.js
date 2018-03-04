@@ -152,5 +152,5 @@
     form.addEventListener("submit", handleFormSubmit, false);
   }
   document.addEventListener('DOMContentLoaded', loaded, false);
-  
-  
+  // preventDefault();
+  // Materialize.toast('I am a toast!', 4000) // 4000
