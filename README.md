@@ -1,2 +1,2 @@
 # FlorentineCafe
-http://bostonflorentinecafe.com/
+https://gnenov89.github.io/FlorentineCafe/
